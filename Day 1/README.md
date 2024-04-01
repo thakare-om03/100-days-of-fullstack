@@ -1,6 +1,6 @@
 # Day 1: Setting up the Environment and Understanding Websites
 
-In this day's session, I learned how to set up the necessary environment for full-stack development and gained a brief understanding of how websites work.
+In today's session, I focused on setting up the necessary environment for full-stack development and gaining a brief understanding of how websites work.
 
 ## Topics Covered
 

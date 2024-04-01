@@ -1,0 +1,1 @@
+alert("Welcome to the 100 days of full stack")
