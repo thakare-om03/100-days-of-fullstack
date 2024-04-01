@@ -1,2 +1,15 @@
-# 100-days-of-fullstack
-100 Days of Fullstack: Embark on a coding journey to master full-stack development. This repository is a chronicle of my daily progress over 100 days as I delve into both front-end and back-end technologies. Each day’s folder contains a README summarizing the day’s learnings and the corresponding code.
+# 100 Days of Fullstack
+
+Welcome to my 100 Days of Fullstack coding journey! In this repository, I will be documenting my daily progress as I dive into the world of full-stack development. 
+
+## About
+
+This repository serves as a chronicle of my learnings and code snippets over the course of 100 days. Each day's folder contains a README file summarizing what I have learned and the corresponding code.
+
+## Goals
+
+My main goals for this challenge are:
+
+- Master front-end technologies such as HTML, CSS, and JavaScript.
+- Gain proficiency in back-end technologies like Node.js, Express, and databases.
+- Build full-stack applications to solidify my understanding and skills.
