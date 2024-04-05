@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Forms for Day 5</h1>
+    <form action="post">
+        <label for="username">Enter your username</label>
+        <input type="text" id="username" name="username" placeholder="Enter your username">
+        <br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Female</label>
+        <br>
+        <label for="age">Enter your age</label>
+        <input type="number" name="age" id="age" value="age" placeholder="Enter your age">
+        <div>
+            <input type="checkbox" name="alive" id="alive" placeholder="Are you alive" value="alive">
+            <label for="alive">Are you still alive and young?</label>
+        </div>
+        <div>
+            <label for="comment">Enter your comment</label>
+            <textarea name="comment" id="comment" cols="30" rows="10">
+            </textarea>
+        </div>
+        <div>
+            <label for="fruits">What fruits do you prefer?</label>
+            <select name="fruits">
+                <option value="apple">Apple</option>
+                <option value="orange">Orange</option>
+                <option value="Banana">Banana</option>
+            </select>
+        </div>
+    </form>
+</body>
+
+</html>
