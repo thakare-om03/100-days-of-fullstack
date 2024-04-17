@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML MEDIA PLAYER</title>
+    <style>
+        body {
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        video {
+            display: block;
+            margin: 0 auto;
+            width: 100%;
+            max-width: 500px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        audio {
+            display: block;
+            margin: 0 auto;
+            width: 100%;
+            max-width: 300px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .video-container {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #333;
+            text-align: center;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Some Music Videos</h1>
+        <div class="video-container">
+            <video src="1.mp4" controls></video>
+        </div>
+        <div class="video-container">
+            <video src="2.mp4" controls></video>
+        </div>
+        <div class="video-container">
+            <video src="3.mp4" controls></video>
+        </div>
+        <h2>One Unheard special song</h2>
+        <div>
+            <audio src="Yes - Yee.mp3" controls></audio>
+        </div>
+    </div>
+</body>
+</html>
