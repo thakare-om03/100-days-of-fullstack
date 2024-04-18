@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 18</title>
+    <style>
+        /* Element Selector */
+        div {
+            background-color: blue;
+        }
+
+        /* Class Selector */
+        .red {
+            background-color: red;
+
+        }
+
+        /* ID Selector */
+        #green {
+            background-color: green;
+        }
+
+        /* Child Selector */
+        div>p {
+            color: blueviolet;
+            background-color: tomato;
+        }
+
+        /* Descendat Selector */
+        div p {
+            color: blueviolet;
+            background-color: tomato;
+        }
+
+        /* Universal Selector */
+        * {
+            margin: 50;
+            padding: 100;
+        }
+
+        /* Pseudo Selector */
+        a:visited {
+            color: red;
+        }
+
+        a:link {
+            color: green;
+        }
+
+        a:hover {
+            color: blue;
+        }
+
+        a:active {
+            color: yellow;
+        }
+
+        p:first-child {
+            color: orangered;
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        This is Div 1
+        <article>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quis cupiditate incidunt maiores sequi aut
+            voluptatem velit doloremque quo amet.
+        </article>
+    </div>
+    <br>
+    <div class="red">
+        This is Div 2
+    </div>
+    <br>
+    <div id="green">
+        This is Div 3
+    </div>
+    <br>
+    <div style="color: black;background-color: antiquewhite;">
+        This is Div 4
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, quibusdam.</p>
+    </div>
+    <a href="https://www.youtube.com/feed/subscriptions">Go to Your YT subscriptions</a>
+    <br>
+    <a href="https://mail.google.com/mail/u/0/">Go to GMAIL</a>
+
+    <div>
+        <main class="one">
+            <p>first</p>
+            <p>second</p>
+        </main>
+    </div>
+</body>
+
+</html>
